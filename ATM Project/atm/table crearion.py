@@ -1,5 +1,5 @@
 import mysql.connector as sql
-conn=sql.connect(host='localhost',user='root',password='manager',database='  ATM_MACHINE')
+conn=sql.connect(host='localhost',user='root',password='',database='  ATM_MACHINE')
 if conn.is_connected():
       print("sucessfully connected")
 c1=conn.cursor()
