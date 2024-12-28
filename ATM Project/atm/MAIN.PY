@@ -1,9 +1,9 @@
 import mysql.connector as sql
-conn=sql.connect(host='localhost',user='root',password='',database='  ATM_MACHINE')
+conn=sql.connect(host='localhost',user='root',password='',database='  BANKING')
 c1=conn.cursor()
 print("================================================================================")
 
-print("                       WELCOME TO OUR ATM ")
+print("                       WELCOME TO OUR BANKING SYSTEM ")
 
 print("================================================================================")
 
